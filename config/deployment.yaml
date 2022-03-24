@@ -28,10 +28,10 @@ spec:
           - --rules-file=/config/rules.yaml
         resources:
           limits:
-            memory: 100Mi
+            memory: 200Mi
           requests:
             cpu: 5m
-            memory: 100Mi
+            memory: 200Mi
         securityContext:
           readOnlyRootFilesystem: true
           runAsNonRoot: true
